@@ -19,7 +19,8 @@ struct ImagePickerView: View {
   @State private var isConfirmationDialogPresented: Bool = false
   @State private var isImagePickerPresented: Bool = false
   @State private var sourceType: SourceType = .camera
-  
+  @State private var photosPickerItem: PhotosPickerItem?
+  @State private var isPhotosPickerPresented: Bool = false
   
   var body: some View {
     VStack {
@@ -45,7 +46,7 @@ struct ImagePickerView: View {
           }
           Button("Photo Library") {
             sourceType = .photoLibrary
-            isImagePickerPresented = true
+            isPhotosPickerPresented = true
           }
         }
         
@@ -56,7 +57,6 @@ struct ImagePickerView: View {
           Text("iOS Developer")
             .font(.headline).foregroundStyle(.secondary)
         }
-        
         Spacer()
       }
       Spacer()
@@ -65,8 +65,18 @@ struct ImagePickerView: View {
     .sheet(isPresented: $isImagePickerPresented) {
       if sourceType == .camera {
         ImagePicker(isPresented: $isImagePickerPresented, image: $avatarImage, sourceType: .camera)
-      } else {
-//        PhotosPicker
+      }
+    }
+    .photosPicker(isPresented: $isPhotosPickerPresented, selection: $photosPickerItem, matching: .images)
+    .onChange(of: photosPickerItem) { _ in
+      Task {
+        if let photosPickerItem,
+           let data = try? await photosPickerItem.loadTransferable(type: Data.self) {
+          if let image = UIImage(data: data) {
+            avatarImage = image
+          }
+        }
+        photosPickerItem = nil
       }
     }
   }
