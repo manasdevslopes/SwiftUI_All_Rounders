@@ -23,27 +23,28 @@ import SwiftUI
 /// state of the setting is bound to the `isDarkMode` property.
 
 struct ToggleExample: View {
-    /// A bindable property that holds the current state of the toggle
-    @State private var isDarkMode: Bool = false
-
-    /// The main view content which is rendered and displayed on the screen
-    var body: some View {
-        /// A VStack containing a label and the `Toggle`.
-        VStack {
-            /// A toggle bound to the `isDarkMode` property, which is toggled
-            /// between true and false as the user interacts with it.
-            Toggle(isOn: $isDarkMode) {
-                Text("Enable Dark Mode")
-                    .font(.title2)
-            }
-            .padding()
-            
-            // Display of the current mode based on the toggle's state
-            Text(isDarkMode ? "Dark Mode is ON" : "Dark Mode is OFF")
-                .font(.headline)
-        }
-        .padding()
+  /// A bindable property that holds the current state of the toggle
+  @AppStorage("isDarkMode") private var isDarkMode = false
+  
+  /// The main view content which is rendered and displayed on the screen
+  var body: some View {
+    /// A VStack containing a label and the `Toggle`.
+    VStack {
+      /// A toggle bound to the `isDarkMode` property, which is toggled
+      /// between true and false as the user interacts with it.
+      Toggle(isOn: $isDarkMode) {
+        Text("Enable Dark Mode")
+          .font(.title2)
+      }
+      .padding()
+      
+      // Display of the current mode based on the toggle's state
+      Text(isDarkMode ? "Dark Mode is ON" : "Dark Mode is OFF")
+        .font(.headline)
     }
+    .preferredColorScheme(isDarkMode ? .dark : .light)
+    .padding()
+  }
 }
 
 struct ToggleExample_Previews: PreviewProvider {
