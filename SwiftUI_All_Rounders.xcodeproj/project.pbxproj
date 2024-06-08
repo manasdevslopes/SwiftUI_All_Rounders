@@ -60,6 +60,8 @@
 		FD34BF1C2C0B28B30078C1CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD34BF1B2C0B28B30078C1CB /* Preview Assets.xcassets */; };
 		FD34BF282C0B2C740078C1CB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD34BF272C0B2C740078C1CB /* WebView.swift */; };
 		FD34BF2A2C0B41350078C1CB /* WebViewInSwiftUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD34BF292C0B41350078C1CB /* WebViewInSwiftUI.swift */; };
+		FD62D2142C145C9D00ED7E79 /* OCP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2132C145C9D00ED7E79 /* OCP_Before.swift */; };
+		FD62D2162C145CA600ED7E79 /* OCP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2152C145CA600ED7E79 /* OCP_After.swift */; };
 		FDDEECEA2C0DFC8E0025E562 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDEECE92C0DFC8E0025E562 /* ImagePickerView.swift */; };
 		FDDEECEC2C0E04340025E562 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDEECEB2C0E04340025E562 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
@@ -120,6 +122,8 @@
 		FD34BF1B2C0B28B30078C1CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD34BF272C0B2C740078C1CB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		FD34BF292C0B41350078C1CB /* WebViewInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewInSwiftUI.swift; sourceTree = "<group>"; };
+		FD62D2132C145C9D00ED7E79 /* OCP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP_Before.swift; sourceTree = "<group>"; };
+		FD62D2152C145CA600ED7E79 /* OCP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP_After.swift; sourceTree = "<group>"; };
 		FDDEECE92C0DFC8E0025E562 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		FDDEECEB2C0E04340025E562 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -455,18 +459,22 @@
 			isa = PBXGroup;
 			children = (
 				FD257FCF2C1222E40051669B /* SOLID.md */,
-				FD257FD12C122BFC0051669B /* SingleResponsibilityPrinciple */,
+				FD257FD12C122BFC0051669B /* 1_SingleResponsibilityPrinciple */,
+				FD62D20F2C145C3400ED7E79 /* 2_OpenClosedPrinciple */,
+				FD62D2102C145C4500ED7E79 /* 3_LiskonSubstitutionPrinciple */,
+				FD62D2112C145C5700ED7E79 /* 4_InterfaceSegregationPrinciple */,
+				FD62D2122C145C6C00ED7E79 /* 5_DependencyInversionPrinciple */,
 			);
 			path = S.O.L.I.D.;
 			sourceTree = "<group>";
 		};
-		FD257FD12C122BFC0051669B /* SingleResponsibilityPrinciple */ = {
+		FD257FD12C122BFC0051669B /* 1_SingleResponsibilityPrinciple */ = {
 			isa = PBXGroup;
 			children = (
 				FD257FD22C122C510051669B /* SRP_Before.swift */,
 				FD257FD42C122C5B0051669B /* SRP_After.swift */,
 			);
-			path = SingleResponsibilityPrinciple;
+			path = 1_SingleResponsibilityPrinciple;
 			sourceTree = "<group>";
 		};
 		FD34BF082C0B28AF0078C1CB = {
@@ -548,6 +556,36 @@
 				FD34BF292C0B41350078C1CB /* WebViewInSwiftUI.swift */,
 			);
 			path = WebViewInSwiftUI;
+			sourceTree = "<group>";
+		};
+		FD62D20F2C145C3400ED7E79 /* 2_OpenClosedPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D2132C145C9D00ED7E79 /* OCP_Before.swift */,
+				FD62D2152C145CA600ED7E79 /* OCP_After.swift */,
+			);
+			path = 2_OpenClosedPrinciple;
+			sourceTree = "<group>";
+		};
+		FD62D2102C145C4500ED7E79 /* 3_LiskonSubstitutionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3_LiskonSubstitutionPrinciple;
+			sourceTree = "<group>";
+		};
+		FD62D2112C145C5700ED7E79 /* 4_InterfaceSegregationPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 4_InterfaceSegregationPrinciple;
+			sourceTree = "<group>";
+		};
+		FD62D2122C145C6C00ED7E79 /* 5_DependencyInversionPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 5_DependencyInversionPrinciple;
 			sourceTree = "<group>";
 		};
 		FDDEECE42C0DF8770025E562 /* UI_UX */ = {
@@ -687,6 +725,7 @@
 				FD257F8E2C0F5F190051669B /* MenuExample.swift in Sources */,
 				FD257FBA2C0F632A0051669B /* TableStaticRow.swift in Sources */,
 				FD257FC72C0F650E0051669B /* ToggleExample.swift in Sources */,
+				FD62D2142C145C9D00ED7E79 /* OCP_Before.swift in Sources */,
 				FD257F5D2C0F59410051669B /* ShareSheetExample.swift in Sources */,
 				FD257F942C0F5FAF0051669B /* TabBarExample.swift in Sources */,
 				FD257F792C0F5C970051669B /* GroupBoxExample.swift in Sources */,
@@ -700,6 +739,7 @@
 				FD257FB92C0F632A0051669B /* TableColumnWidth.swift in Sources */,
 				FD257FA62C0F61CA0051669B /* SheetExample.swift in Sources */,
 				FD257F9D2C0F60EA0051669B /* ProgressIndicatorExample.swift in Sources */,
+				FD62D2162C145CA600ED7E79 /* OCP_After.swift in Sources */,
 				FD257F582C0F56470051669B /* HKActivityRingViewRepresentable.swift in Sources */,
 				FD257F632C0F5A3D0051669B /* ButtonExample.swift in Sources */,
 				FD257FC12C0F647F0051669B /* TextExample.swift in Sources */,
