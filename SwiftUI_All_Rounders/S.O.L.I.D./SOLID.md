@@ -20,9 +20,11 @@
 - Open for Extension and Closed for Modification
 
 **Liskov Substitution**
-- There is a Parent and child classes. And we are inheriting from Parent to CHild. So we don't have to change any functionality of base class (Parent Class) means override in Child Class. Use it as it is.
+- There is a Parent and child classes. And we are inheriting from Parent to CHild. So we don't have to change any functionality of base class (Parent Class) means override into Child Class. Use it as it is.
+- Objects shoud be replaced with instaces of their subclasses without altering the behaviour.
 
-
+**Interface Segregation**
+- 
 
 
 
