@@ -27,8 +27,10 @@
 - While creating a protocol with some rules(func/variables), and it is exposed to two different classes. In first class, all properties required then it is fine. But in second class, some functionalities not required, but still all properties are being exposed so this should not be the case.
 
 
-
-
+**Dependency Inversion**
+- Depend on Abstraction not on Concretions.
+- High level modules should not depend upon low level modules. Both should depend upon abstrations.
+- Abstraction should not depend on details. Details should depend on abstractions.
 
 
 
