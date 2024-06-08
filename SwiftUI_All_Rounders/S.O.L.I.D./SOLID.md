@@ -24,7 +24,9 @@
 - Objects shoud be replaced with instaces of their subclasses without altering the behaviour.
 
 **Interface Segregation**
-- 
+- While creating a protocol with some rules(func/variables), and it is exposed to two different classes. In first class, all properties required then it is fine. But in second class, some functionalities not required, but still all properties are being exposed so this should not be the case.
+
+
 
 
 
