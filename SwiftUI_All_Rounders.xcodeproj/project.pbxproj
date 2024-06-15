@@ -511,10 +511,10 @@
 				FD34BF142C0B28AF0078C1CB /* SwiftUI_All_RoundersApp.swift */,
 				FD34BF162C0B28AF0078C1CB /* ContentView.swift */,
 				FD257FCE2C12229E0051669B /* S.O.L.I.D. */,
-				FD257F522C0F55440051669B /* SwiftUI_Components */,
 				FDDEECE82C0DFA0F0025E562 /* DesignPatterns */,
+				FD257F522C0F55440051669B /* SwiftUI_Components */,
 				FDDEECE42C0DF8770025E562 /* UI_UX */,
-				FD34BF232C0B2AA80078C1CB /* Apps */,
+				FDDEECE52C0DF9440025E562 /* AppleKits */,
 				FD34BF222C0B2AA10078C1CB /* Playgrounds */,
 				FD34BF182C0B28B30078C1CB /* Assets.xcassets */,
 				FD34BF1A2C0B28B30078C1CB /* Preview Content */,
@@ -536,14 +536,6 @@
 				FD34BF242C0B2B240078C1CB /* Adapter&UIViewRepresentable */,
 			);
 			path = Playgrounds;
-			sourceTree = "<group>";
-		};
-		FD34BF232C0B2AA80078C1CB /* Apps */ = {
-			isa = PBXGroup;
-			children = (
-				FDDEECE52C0DF9440025E562 /* AppleKits */,
-			);
-			path = Apps;
 			sourceTree = "<group>";
 		};
 		FD34BF242C0B2B240078C1CB /* Adapter&UIViewRepresentable */ = {
