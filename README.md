@@ -15,7 +15,7 @@
 # 4. UI/UX (Kavsoft/Rebeloper/Sean Allen)
 
 # 5. AppleKits
-  a. Image Pickers - Camera & Gallery
-  b. WebView
+      a. Image Pickers - Camera & Gallery
+      b. WebView
 
 # 6. Playgrounds
