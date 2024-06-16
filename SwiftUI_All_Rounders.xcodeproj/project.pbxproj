@@ -68,6 +68,21 @@
 		FD62D21E2C1470C200ED7E79 /* ISP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D21D2C1470C200ED7E79 /* ISP_After.swift */; };
 		FD62D2202C147D1200ED7E79 /* DIP_Before.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D21F2C147D1200ED7E79 /* DIP_Before.swift */; };
 		FD62D2222C147D1E00ED7E79 /* DIP_After.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2212C147D1E00ED7E79 /* DIP_After.swift */; };
+		FD62D2262C1D95A500ED7E79 /* FromParentToDirectChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2252C1D95A500ED7E79 /* FromParentToDirectChild.swift */; };
+		FD62D2292C1D970300ED7E79 /* FromParentToDistantChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2282C1D970300ED7E79 /* FromParentToDistantChild.swift */; };
+		FD62D22B2C1DA5A000ED7E79 /* FromParentToDistantChildExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D22A2C1DA5A000ED7E79 /* FromParentToDistantChildExample.swift */; };
+		FD62D22F2C1E98F100ED7E79 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D22E2C1E98F100ED7E79 /* FirstView.swift */; };
+		FD62D2312C1E98F900ED7E79 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2302C1E98F900ED7E79 /* SecondView.swift */; };
+		FD62D2332C1E990500ED7E79 /* PurchaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2322C1E990500ED7E79 /* PurchaseView.swift */; };
+		FD62D2352C1E992F00ED7E79 /* AppStoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2342C1E992F00ED7E79 /* AppStoreService.swift */; };
+		FD62D2372C1E994A00ED7E79 /* BackgroundViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2362C1E994A00ED7E79 /* BackgroundViewModifier.swift */; };
+		FD62D2392C1E995900ED7E79 /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2382C1E995900ED7E79 /* AppEntry.swift */; };
+		FD62D23D2C1EA22B00ED7E79 /* AppColorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D23C2C1EA22B00ED7E79 /* AppColorKey.swift */; };
+		FD62D23F2C1ED96400ED7E79 /* AppPurchaseTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D23E2C1ED96400ED7E79 /* AppPurchaseTheme.swift */; };
+		FD62D2412C1EDA7D00ED7E79 /* AppThemeKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2402C1EDA7D00ED7E79 /* AppThemeKey.swift */; };
+		FD62D2442C1EE59E00ED7E79 /* CustomEnvironmentKeysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2432C1EE59E00ED7E79 /* CustomEnvironmentKeysApp.swift */; };
+		FD62D2482C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2472C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift */; };
+		FD62D24B2C1EE65000ED7E79 /* SafeAreaKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D24A2C1EE65000ED7E79 /* SafeAreaKey.swift */; };
 		FDDEECEA2C0DFC8E0025E562 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDEECE92C0DFC8E0025E562 /* ImagePickerView.swift */; };
 		FDDEECEC2C0E04340025E562 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDEECEB2C0E04340025E562 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
@@ -136,6 +151,21 @@
 		FD62D21D2C1470C200ED7E79 /* ISP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISP_After.swift; sourceTree = "<group>"; };
 		FD62D21F2C147D1200ED7E79 /* DIP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP_Before.swift; sourceTree = "<group>"; };
 		FD62D2212C147D1E00ED7E79 /* DIP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIP_After.swift; sourceTree = "<group>"; };
+		FD62D2252C1D95A500ED7E79 /* FromParentToDirectChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromParentToDirectChild.swift; sourceTree = "<group>"; };
+		FD62D2282C1D970300ED7E79 /* FromParentToDistantChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromParentToDistantChild.swift; sourceTree = "<group>"; };
+		FD62D22A2C1DA5A000ED7E79 /* FromParentToDistantChildExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromParentToDistantChildExample.swift; sourceTree = "<group>"; };
+		FD62D22E2C1E98F100ED7E79 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		FD62D2302C1E98F900ED7E79 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		FD62D2322C1E990500ED7E79 /* PurchaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseView.swift; sourceTree = "<group>"; };
+		FD62D2342C1E992F00ED7E79 /* AppStoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreService.swift; sourceTree = "<group>"; };
+		FD62D2362C1E994A00ED7E79 /* BackgroundViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundViewModifier.swift; sourceTree = "<group>"; };
+		FD62D2382C1E995900ED7E79 /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
+		FD62D23C2C1EA22B00ED7E79 /* AppColorKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColorKey.swift; sourceTree = "<group>"; };
+		FD62D23E2C1ED96400ED7E79 /* AppPurchaseTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPurchaseTheme.swift; sourceTree = "<group>"; };
+		FD62D2402C1EDA7D00ED7E79 /* AppThemeKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppThemeKey.swift; sourceTree = "<group>"; };
+		FD62D2432C1EE59E00ED7E79 /* CustomEnvironmentKeysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeysApp.swift; sourceTree = "<group>"; };
+		FD62D2472C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeysView.swift; sourceTree = "<group>"; };
+		FD62D24A2C1EE65000ED7E79 /* SafeAreaKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaKey.swift; sourceTree = "<group>"; };
 		FDDEECE92C0DFC8E0025E562 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		FDDEECEB2C0E04340025E562 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -598,6 +628,92 @@
 			path = 5_DependencyInversionPrinciple;
 			sourceTree = "<group>";
 		};
+		FD62D2232C1D947700ED7E79 /* ViewCommunicationPatternsInSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D2242C1D94B400ED7E79 /* From_Parent_To_Direct_Child */,
+				FD62D2272C1D96B500ED7E79 /* From_Parent_To_Distant_Child */,
+			);
+			path = ViewCommunicationPatternsInSwiftUI;
+			sourceTree = "<group>";
+		};
+		FD62D2242C1D94B400ED7E79 /* From_Parent_To_Direct_Child */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D2252C1D95A500ED7E79 /* FromParentToDirectChild.swift */,
+			);
+			path = From_Parent_To_Direct_Child;
+			sourceTree = "<group>";
+		};
+		FD62D2272C1D96B500ED7E79 /* From_Parent_To_Distant_Child */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D2282C1D970300ED7E79 /* FromParentToDistantChild.swift */,
+				FD62D22A2C1DA5A000ED7E79 /* FromParentToDistantChildExample.swift */,
+				FD62D22C2C1E973C00ED7E79 /* FromParentToDistantChildExample2 */,
+				FD62D2422C1EE4E500ED7E79 /* FromParentToDistantChildExample3 */,
+			);
+			path = From_Parent_To_Distant_Child;
+			sourceTree = "<group>";
+		};
+		FD62D22C2C1E973C00ED7E79 /* FromParentToDistantChildExample2 */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D2382C1E995900ED7E79 /* AppEntry.swift */,
+				FD62D2362C1E994A00ED7E79 /* BackgroundViewModifier.swift */,
+				FD62D23E2C1ED96400ED7E79 /* AppPurchaseTheme.swift */,
+				FD62D23B2C1EA1F200ED7E79 /* EnvironmentKeys */,
+				FD62D22D2C1E98E000ED7E79 /* Views */,
+				FD62D23A2C1E999900ED7E79 /* ViewModel */,
+			);
+			path = FromParentToDistantChildExample2;
+			sourceTree = "<group>";
+		};
+		FD62D22D2C1E98E000ED7E79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D22E2C1E98F100ED7E79 /* FirstView.swift */,
+				FD62D2302C1E98F900ED7E79 /* SecondView.swift */,
+				FD62D2322C1E990500ED7E79 /* PurchaseView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD62D23A2C1E999900ED7E79 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D2342C1E992F00ED7E79 /* AppStoreService.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD62D23B2C1EA1F200ED7E79 /* EnvironmentKeys */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D23C2C1EA22B00ED7E79 /* AppColorKey.swift */,
+				FD62D2402C1EDA7D00ED7E79 /* AppThemeKey.swift */,
+			);
+			path = EnvironmentKeys;
+			sourceTree = "<group>";
+		};
+		FD62D2422C1EE4E500ED7E79 /* FromParentToDistantChildExample3 */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D2492C1EE62400ED7E79 /* EnvironmentKeys */,
+				FD62D2432C1EE59E00ED7E79 /* CustomEnvironmentKeysApp.swift */,
+				FD62D2472C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift */,
+			);
+			path = FromParentToDistantChildExample3;
+			sourceTree = "<group>";
+		};
+		FD62D2492C1EE62400ED7E79 /* EnvironmentKeys */ = {
+			isa = PBXGroup;
+			children = (
+				FD62D24A2C1EE65000ED7E79 /* SafeAreaKey.swift */,
+			);
+			path = EnvironmentKeys;
+			sourceTree = "<group>";
+		};
 		FDDEECE42C0DF8770025E562 /* UI_UX */ = {
 			isa = PBXGroup;
 			children = (
@@ -634,6 +750,7 @@
 		FDDEECE82C0DFA0F0025E562 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				FD62D2232C1D947700ED7E79 /* ViewCommunicationPatternsInSwiftUI */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -708,13 +825,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD62D23F2C1ED96400ED7E79 /* AppPurchaseTheme.swift in Sources */,
 				FD257FD52C122C5B0051669B /* SRP_After.swift in Sources */,
+				FD62D2292C1D970300ED7E79 /* FromParentToDistantChild.swift in Sources */,
+				FD62D2392C1E995900ED7E79 /* AppEntry.swift in Sources */,
 				FD257F892C0F5E600051669B /* ListWithoutIdentifiable.swift in Sources */,
 				FD34BF2A2C0B41350078C1CB /* WebViewInSwiftUI.swift in Sources */,
 				FD34BF282C0B2C740078C1CB /* WebView.swift in Sources */,
 				FDDEECEA2C0DFC8E0025E562 /* ImagePickerView.swift in Sources */,
 				FD257FA02C0F61370051669B /* ScrollViewExample.swift in Sources */,
 				FD257F7F2C0F5D890051669B /* LabelExample.swift in Sources */,
+				FD62D22B2C1DA5A000ED7E79 /* FromParentToDistantChildExample.swift in Sources */,
 				FD257FC42C0F64BC0051669B /* TextFieldExample.swift in Sources */,
 				FDDEECEC2C0E04340025E562 /* ImagePicker.swift in Sources */,
 				FD257FBE2C0F632A0051669B /* TableSorting.swift in Sources */,
@@ -738,7 +859,9 @@
 				FD62D2142C145C9D00ED7E79 /* OCP_Before.swift in Sources */,
 				FD62D2222C147D1E00ED7E79 /* DIP_After.swift in Sources */,
 				FD62D2182C14674500ED7E79 /* LSP_Before.swift in Sources */,
+				FD62D2372C1E994A00ED7E79 /* BackgroundViewModifier.swift in Sources */,
 				FD62D21C2C1470B800ED7E79 /* ISP_Before.swift in Sources */,
+				FD62D2482C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift in Sources */,
 				FD257F5D2C0F59410051669B /* ShareSheetExample.swift in Sources */,
 				FD257F942C0F5FAF0051669B /* TabBarExample.swift in Sources */,
 				FD257F792C0F5C970051669B /* GroupBoxExample.swift in Sources */,
@@ -746,26 +869,35 @@
 				FD257F7C2C0F5D0E0051669B /* ImageView.swift in Sources */,
 				FD257F682C0F5A7B0051669B /* Movie.swift in Sources */,
 				FD257F832C0F5DBD0051669B /* CustomLinkButton.swift in Sources */,
+				FD62D2332C1E990500ED7E79 /* PurchaseView.swift in Sources */,
 				FD257FA32C0F61900051669B /* SegmentedControlExample.swift in Sources */,
 				FD62D21E2C1470C200ED7E79 /* ISP_After.swift in Sources */,
+				FD62D2352C1E992F00ED7E79 /* AppStoreService.swift in Sources */,
+				FD62D23D2C1EA22B00ED7E79 /* AppColorKey.swift in Sources */,
 				FD257FD32C122C510051669B /* SRP_Before.swift in Sources */,
 				FD257F602C0F59EC0051669B /* AlertExample.swift in Sources */,
 				FD257FB92C0F632A0051669B /* TableColumnWidth.swift in Sources */,
 				FD257FA62C0F61CA0051669B /* SheetExample.swift in Sources */,
+				FD62D22F2C1E98F100ED7E79 /* FirstView.swift in Sources */,
 				FD62D21A2C14674F00ED7E79 /* LSP_After.swift in Sources */,
 				FD257F9D2C0F60EA0051669B /* ProgressIndicatorExample.swift in Sources */,
 				FD62D2162C145CA600ED7E79 /* OCP_After.swift in Sources */,
 				FD257F582C0F56470051669B /* HKActivityRingViewRepresentable.swift in Sources */,
 				FD257F632C0F5A3D0051669B /* ButtonExample.swift in Sources */,
+				FD62D2412C1EDA7D00ED7E79 /* AppThemeKey.swift in Sources */,
 				FD257FC12C0F647F0051669B /* TextExample.swift in Sources */,
 				FD257FAE2C0F62510051669B /* SplitView.swift in Sources */,
 				FD62D2202C147D1200ED7E79 /* DIP_Before.swift in Sources */,
 				FD257F6F2C0F5B150051669B /* DisclosureGroupExample.swift in Sources */,
 				FD257F692C0F5A7B0051669B /* BarChart.swift in Sources */,
+				FD62D24B2C1EE65000ED7E79 /* SafeAreaKey.swift in Sources */,
 				FD257F742C0F5B750051669B /* SimpleGaugeExample.swift in Sources */,
 				FD257FCA2C0F65650051669B /* ToolbarExample.swift in Sources */,
+				FD62D2262C1D95A500ED7E79 /* FromParentToDirectChild.swift in Sources */,
+				FD62D2312C1E98F900ED7E79 /* SecondView.swift in Sources */,
 				FD257F972C0F605D0051669B /* PickerExample.swift in Sources */,
 				FD257F5A2C0F58000051669B /* ActivityRingExample.swift in Sources */,
+				FD62D2442C1EE59E00ED7E79 /* CustomEnvironmentKeysApp.swift in Sources */,
 				FD257FBB2C0F632A0051669B /* TableSelection.swift in Sources */,
 				FD257FB12C0F62D80051669B /* StepperExample.swift in Sources */,
 				FD257F8A2C0F5E600051669B /* ListSeparatorHidden.swift in Sources */,

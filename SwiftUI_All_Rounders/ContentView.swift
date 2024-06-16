@@ -57,9 +57,11 @@ struct ContentView: View {
     // TableSorting()
     // TextExample()
     // TextFieldExample()
-     ToggleExample()
+    // ToggleExample()
     // ToolbarExample()
     // TextInputTypeExample()
+    
+    FromParentToDistantChildExample()
     
     /* Apps --> AppleKits */
     // WebViewInSwiftUI()
