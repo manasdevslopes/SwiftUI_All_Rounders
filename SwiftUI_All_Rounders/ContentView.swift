@@ -61,7 +61,8 @@ struct ContentView: View {
     // ToolbarExample()
     // TextInputTypeExample()
     
-    FromParentToDistantChildExample()
+    // FromParentToDistantChildExample()
+    ShippingForm()
     
     /* Apps --> AppleKits */
     // WebViewInSwiftUI()
