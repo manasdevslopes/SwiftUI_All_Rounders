@@ -57,7 +57,6 @@
 		FD2F47582C21E67500CEE499 /* ShippingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F47572C21E67500CEE499 /* ShippingForm.swift */; };
 		FD2F475A2C21E92900CEE499 /* ShippingAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F47592C21E92900CEE499 /* ShippingAddress.swift */; };
 		FD2F475C2C21F19800CEE499 /* TextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F475B2C21F19800CEE499 /* TextInputField.swift */; };
-		FD2F475F2C22940100CEE499 /* FromChildToDirectParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F475E2C22940100CEE499 /* FromChildToDirectParent.swift */; };
 		FD2F47632C22942F00CEE499 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F47622C22942F00CEE499 /* Item.swift */; };
 		FD2F47662C22945800CEE499 /* ItemRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F47652C22945800CEE499 /* ItemRowView.swift */; };
 		FD2F47682C2295E300CEE499 /* ChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F47672C2295E300CEE499 /* ChildView.swift */; };
@@ -149,7 +148,6 @@
 		FD2F47572C21E67500CEE499 /* ShippingForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingForm.swift; sourceTree = "<group>"; };
 		FD2F47592C21E92900CEE499 /* ShippingAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShippingAddress.swift; sourceTree = "<group>"; };
 		FD2F475B2C21F19800CEE499 /* TextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputField.swift; sourceTree = "<group>"; };
-		FD2F475E2C22940100CEE499 /* FromChildToDirectParent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FromChildToDirectParent.swift; sourceTree = "<group>"; };
 		FD2F47622C22942F00CEE499 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FD2F47652C22945800CEE499 /* ItemRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRowView.swift; sourceTree = "<group>"; };
 		FD2F47672C2295E300CEE499 /* ChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildView.swift; sourceTree = "<group>"; };
@@ -563,7 +561,6 @@
 			children = (
 				FD2F47642C22944600CEE499 /* Component */,
 				FD2F47612C22942200CEE499 /* Model */,
-				FD2F475E2C22940100CEE499 /* FromChildToDirectParent.swift */,
 				FD2F47692C2297D800CEE499 /* DetailsView.swift */,
 				FD2F476B2C22982700CEE499 /* ParentsView.swift */,
 			);
@@ -980,7 +977,6 @@
 				FD2F476A2C2297D800CEE499 /* DetailsView.swift in Sources */,
 				FD62D2262C1D95A500ED7E79 /* FromParentToDirectChild.swift in Sources */,
 				FD62D2312C1E98F900ED7E79 /* SecondView.swift in Sources */,
-				FD2F475F2C22940100CEE499 /* FromChildToDirectParent.swift in Sources */,
 				FD2F47582C21E67500CEE499 /* ShippingForm.swift in Sources */,
 				FD257F972C0F605D0051669B /* PickerExample.swift in Sources */,
 				FD257F5A2C0F58000051669B /* ActivityRingExample.swift in Sources */,
