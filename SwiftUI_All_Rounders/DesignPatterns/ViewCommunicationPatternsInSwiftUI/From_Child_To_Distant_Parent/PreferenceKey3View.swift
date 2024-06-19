@@ -26,7 +26,7 @@ struct PreferenceKey3View: View {
 }
 
 struct PreferenceKey3View_Previews: PreviewProvider {
-    static var previews: some View {
-        PreferenceKey3View()
-    }
+  static var previews: some View {
+    PreferenceKey3View()
+  }
 }

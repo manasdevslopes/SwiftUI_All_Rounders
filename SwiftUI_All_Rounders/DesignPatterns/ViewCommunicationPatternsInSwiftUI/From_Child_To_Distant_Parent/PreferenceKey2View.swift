@@ -14,11 +14,14 @@ struct PreferenceKey2View: View {
     NavigationStack {
       VStack {
         Text("\(result)").font(.largeTitle).bold()
-        HStack {
+          .updateInt(7)
+        HStack{
           Rectangle()
           Rectangle()
         }
+        .updateInt(5)
         Rectangle()
+          .updateInt(2)
       }
       .navigationTitle("Example 2")
     }
@@ -32,9 +35,9 @@ struct PreferenceKey2View: View {
 }
 
 struct PreferenceKey2View_Previews: PreviewProvider {
-    static var previews: some View {
-        PreferenceKey2View()
-    }
+  static var previews: some View {
+    PreferenceKey2View()
+  }
 }
 
 // Step 1
