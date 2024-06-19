@@ -64,7 +64,10 @@ struct ContentView: View {
     // FromParentToDistantChildExample()
     // ShippingForm()
     // ParentsView()
-    BindingParentView()
+    // BindingParentView()
+    // PreferenceKey1View()
+    // PreferenceKey2View()
+    PreferenceKey3View()
     
     /* Apps --> AppleKits */
     // WebViewInSwiftUI()
