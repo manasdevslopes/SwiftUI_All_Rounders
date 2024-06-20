@@ -168,6 +168,7 @@
 		FD34BF1B2C0B28B30078C1CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD34BF272C0B2C740078C1CB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		FD34BF292C0B41350078C1CB /* WebViewInSwiftUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewInSwiftUI.swift; sourceTree = "<group>"; };
+		FD3715972C245F8B00036963 /* FactoryDesignPattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = FactoryDesignPattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FD62D2132C145C9D00ED7E79 /* OCP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP_Before.swift; sourceTree = "<group>"; };
 		FD62D2152C145CA600ED7E79 /* OCP_After.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCP_After.swift; sourceTree = "<group>"; };
 		FD62D2172C14674500ED7E79 /* LSP_Before.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSP_Before.swift; sourceTree = "<group>"; };
@@ -680,6 +681,14 @@
 			path = WebViewInSwiftUI;
 			sourceTree = "<group>";
 		};
+		FD3715962C245F7100036963 /* Factory Design Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				FD3715972C245F8B00036963 /* FactoryDesignPattern.playground */,
+			);
+			path = "Factory Design Pattern";
+			sourceTree = "<group>";
+		};
 		FD62D20F2C145C3400ED7E79 /* 2_OpenClosedPrinciple */ = {
 			isa = PBXGroup;
 			children = (
@@ -842,6 +851,7 @@
 		FDDEECE82C0DFA0F0025E562 /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				FD3715962C245F7100036963 /* Factory Design Pattern */,
 				FD62D2232C1D947700ED7E79 /* ViewCommunicationPatternsInSwiftUI */,
 			);
 			path = DesignPatterns;
