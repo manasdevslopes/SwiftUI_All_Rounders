@@ -92,6 +92,14 @@
 		FD62D2442C1EE59E00ED7E79 /* CustomEnvironmentKeysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2432C1EE59E00ED7E79 /* CustomEnvironmentKeysApp.swift */; };
 		FD62D2482C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D2472C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift */; };
 		FD62D24B2C1EE65000ED7E79 /* SafeAreaKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD62D24A2C1EE65000ED7E79 /* SafeAreaKey.swift */; };
+		FD65F67C2C25A3A000BBFB01 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F67B2C25A3A000BBFB01 /* API.swift */; };
+		FD65F67E2C25A41000BBFB01 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F67D2C25A41000BBFB01 /* Post.swift */; };
+		FD65F6812C25A45100BBFB01 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F6802C25A45100BBFB01 /* NetworkError.swift */; };
+		FD65F6832C25A4FE00BBFB01 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F6822C25A4FE00BBFB01 /* ServiceLayer.swift */; };
+		FD65F6852C25A91800BBFB01 /* MockDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F6842C25A91800BBFB01 /* MockDataService.swift */; };
+		FD65F6872C25ABCB00BBFB01 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F6862C25ABCB00BBFB01 /* PostsViewModel.swift */; };
+		FD65F6892C25AE1000BBFB01 /* PostsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F6882C25AE1000BBFB01 /* PostsList.swift */; };
+		FD65F68B2C25AE5E00BBFB01 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F68A2C25AE5E00BBFB01 /* PostDetailView.swift */; };
 		FDDEECEA2C0DFC8E0025E562 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDEECE92C0DFC8E0025E562 /* ImagePickerView.swift */; };
 		FDDEECEC2C0E04340025E562 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDEECEB2C0E04340025E562 /* ImagePicker.swift */; };
 		FDFCD61A2C22FBF90054DD3A /* PreferenceKey1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCD6192C22FBF90054DD3A /* PreferenceKey1View.swift */; };
@@ -193,6 +201,14 @@
 		FD62D2432C1EE59E00ED7E79 /* CustomEnvironmentKeysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeysApp.swift; sourceTree = "<group>"; };
 		FD62D2472C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomEnvironmentKeysView.swift; sourceTree = "<group>"; };
 		FD62D24A2C1EE65000ED7E79 /* SafeAreaKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeAreaKey.swift; sourceTree = "<group>"; };
+		FD65F67B2C25A3A000BBFB01 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FD65F67D2C25A41000BBFB01 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FD65F6802C25A45100BBFB01 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		FD65F6822C25A4FE00BBFB01 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		FD65F6842C25A91800BBFB01 /* MockDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataService.swift; sourceTree = "<group>"; };
+		FD65F6862C25ABCB00BBFB01 /* PostsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
+		FD65F6882C25AE1000BBFB01 /* PostsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsList.swift; sourceTree = "<group>"; };
+		FD65F68A2C25AE5E00BBFB01 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		FDDEECE92C0DFC8E0025E562 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		FDDEECEB2C0E04340025E562 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		FDFCD6192C22FBF90054DD3A /* PreferenceKey1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey1View.swift; sourceTree = "<group>"; };
@@ -629,6 +645,7 @@
 			children = (
 				FD34BF142C0B28AF0078C1CB /* SwiftUI_All_RoundersApp.swift */,
 				FD34BF162C0B28AF0078C1CB /* ContentView.swift */,
+				FD65F6712C258BD000BBFB01 /* Dependacy Injections */,
 				FD257FCE2C12229E0051669B /* S.O.L.I.D. */,
 				FDDEECE82C0DFA0F0025E562 /* DesignPatterns */,
 				FD257F522C0F55440051669B /* SwiftUI_Components */,
@@ -824,6 +841,77 @@
 			path = EnvironmentKeys;
 			sourceTree = "<group>";
 		};
+		FD65F6712C258BD000BBFB01 /* Dependacy Injections */ = {
+			isa = PBXGroup;
+			children = (
+				FD65F6752C25A34B00BBFB01 /* APICallWithDI */,
+			);
+			path = "Dependacy Injections";
+			sourceTree = "<group>";
+		};
+		FD65F6752C25A34B00BBFB01 /* APICallWithDI */ = {
+			isa = PBXGroup;
+			children = (
+				FD65F6762C25A36D00BBFB01 /* API */,
+				FD65F67F2C25A43500BBFB01 /* Errors */,
+				FD65F6772C25A37500BBFB01 /* Model */,
+				FD65F6782C25A37900BBFB01 /* ServiceLayer */,
+				FD65F6792C25A37F00BBFB01 /* ViewModel */,
+				FD65F67A2C25A38600BBFB01 /* Views */,
+			);
+			path = APICallWithDI;
+			sourceTree = "<group>";
+		};
+		FD65F6762C25A36D00BBFB01 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				FD65F67B2C25A3A000BBFB01 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		FD65F6772C25A37500BBFB01 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD65F67D2C25A41000BBFB01 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD65F6782C25A37900BBFB01 /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				FD65F6822C25A4FE00BBFB01 /* ServiceLayer.swift */,
+				FD65F6842C25A91800BBFB01 /* MockDataService.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		FD65F6792C25A37F00BBFB01 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FD65F6862C25ABCB00BBFB01 /* PostsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FD65F67A2C25A38600BBFB01 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FD65F6882C25AE1000BBFB01 /* PostsList.swift */,
+				FD65F68A2C25AE5E00BBFB01 /* PostDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD65F67F2C25A43500BBFB01 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				FD65F6802C25A45100BBFB01 /* NetworkError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
 		FDDEECE42C0DF8770025E562 /* UI_UX */ = {
 			isa = PBXGroup;
 			children = (
@@ -958,11 +1046,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD65F68B2C25AE5E00BBFB01 /* PostDetailView.swift in Sources */,
 				FD62D23F2C1ED96400ED7E79 /* AppPurchaseTheme.swift in Sources */,
 				FDFCD6272C2332940054DD3A /* PreferenceKey3View.swift in Sources */,
 				FD257FD52C122C5B0051669B /* SRP_After.swift in Sources */,
 				FD62D2292C1D970300ED7E79 /* FromParentToDistantChild.swift in Sources */,
 				FD62D2392C1E995900ED7E79 /* AppEntry.swift in Sources */,
+				FD65F6852C25A91800BBFB01 /* MockDataService.swift in Sources */,
 				FD257F892C0F5E600051669B /* ListWithoutIdentifiable.swift in Sources */,
 				FD34BF2A2C0B41350078C1CB /* WebViewInSwiftUI.swift in Sources */,
 				FD34BF282C0B2C740078C1CB /* WebView.swift in Sources */,
@@ -990,16 +1080,19 @@
 				FD257F8B2C0F5E600051669B /* ListIdentifiable.swift in Sources */,
 				FD257FAD2C0F62510051669B /* ThreeColumnSplitView.swift in Sources */,
 				FD257FA92C0F62140051669B /* SliderExample.swift in Sources */,
+				FD65F6872C25ABCB00BBFB01 /* PostsViewModel.swift in Sources */,
 				FD34BF172C0B28AF0078C1CB /* ContentView.swift in Sources */,
 				FD257F752C0F5B750051669B /* CircularGaugeExample.swift in Sources */,
 				FD257F8E2C0F5F190051669B /* MenuExample.swift in Sources */,
 				FD257FBA2C0F632A0051669B /* TableStaticRow.swift in Sources */,
 				FD257FC72C0F650E0051669B /* ToggleExample.swift in Sources */,
 				FD62D2142C145C9D00ED7E79 /* OCP_Before.swift in Sources */,
+				FD65F67C2C25A3A000BBFB01 /* API.swift in Sources */,
 				FDFCD61A2C22FBF90054DD3A /* PreferenceKey1View.swift in Sources */,
 				FD62D2222C147D1E00ED7E79 /* DIP_After.swift in Sources */,
 				FD62D2182C14674500ED7E79 /* LSP_Before.swift in Sources */,
 				FD62D2372C1E994A00ED7E79 /* BackgroundViewModifier.swift in Sources */,
+				FD65F6812C25A45100BBFB01 /* NetworkError.swift in Sources */,
 				FD62D21C2C1470B800ED7E79 /* ISP_Before.swift in Sources */,
 				FD62D2482C1EE60E00ED7E79 /* CustomEnvironmentKeysView.swift in Sources */,
 				FD257F5D2C0F59410051669B /* ShareSheetExample.swift in Sources */,
@@ -1008,6 +1101,7 @@
 				FD34BF152C0B28AF0078C1CB /* SwiftUI_All_RoundersApp.swift in Sources */,
 				FD257F7C2C0F5D0E0051669B /* ImageView.swift in Sources */,
 				FD257F682C0F5A7B0051669B /* Movie.swift in Sources */,
+				FD65F67E2C25A41000BBFB01 /* Post.swift in Sources */,
 				FDFCD6262C2332940054DD3A /* PreferenceKey2View.swift in Sources */,
 				FD257F832C0F5DBD0051669B /* CustomLinkButton.swift in Sources */,
 				FD62D2332C1E990500ED7E79 /* PurchaseView.swift in Sources */,
@@ -1020,11 +1114,13 @@
 				FD257F602C0F59EC0051669B /* AlertExample.swift in Sources */,
 				FD257FB92C0F632A0051669B /* TableColumnWidth.swift in Sources */,
 				FD257FA62C0F61CA0051669B /* SheetExample.swift in Sources */,
+				FD65F6892C25AE1000BBFB01 /* PostsList.swift in Sources */,
 				FD62D22F2C1E98F100ED7E79 /* FirstView.swift in Sources */,
 				FD2F47682C2295E300CEE499 /* ChildView.swift in Sources */,
 				FD62D21A2C14674F00ED7E79 /* LSP_After.swift in Sources */,
 				FD257F9D2C0F60EA0051669B /* ProgressIndicatorExample.swift in Sources */,
 				FD62D2162C145CA600ED7E79 /* OCP_After.swift in Sources */,
+				FD65F6832C25A4FE00BBFB01 /* ServiceLayer.swift in Sources */,
 				FD257F582C0F56470051669B /* HKActivityRingViewRepresentable.swift in Sources */,
 				FD257F632C0F5A3D0051669B /* ButtonExample.swift in Sources */,
 				FD62D2412C1EDA7D00ED7E79 /* AppThemeKey.swift in Sources */,

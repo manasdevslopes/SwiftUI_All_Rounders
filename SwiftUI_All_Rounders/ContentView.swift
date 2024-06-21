@@ -70,7 +70,16 @@ struct ContentView: View {
     // PreferenceKey3View()
     // PreferenceKey4View()
     // PreferenceKey5View()
-    BetweenChildren()
+    // BetweenChildren()
+    
+    // Switch between NetworkService() and MockDataService() for real and mock data
+    PostsList(dataService: NetworkService())
+    // PostsList(dataService: MockDataService(mockData: nil))
+    /* PostsList(dataService: MockDataService(mockData: [
+      Post(userId: 1, id: 1, title: "Injected Mock Title 1", body: "Injected Mock Body 1"),
+      Post(userId: 2, id: 2, title: "Injected Mock Title 2", body: "Injected Mock Body 2")
+    ]))
+    */
     
     /* Apps --> AppleKits */
     // WebViewInSwiftUI()
