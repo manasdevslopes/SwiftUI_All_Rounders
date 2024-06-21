@@ -16,6 +16,9 @@
       4. From Child to Distant Parent – Use PreferenceKey
       5. Between Children – Lift the State Up
 
+  # Adapter Design Pattern
+  # Factory Design Pattern
+
 # 3. SwiftUI Components
 
 # 4. UI/UX (Kavsoft/Rebeloper/Sean Allen)
