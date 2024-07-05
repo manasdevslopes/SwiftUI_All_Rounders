@@ -102,6 +102,9 @@
 		FD65F68B2C25AE5E00BBFB01 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD65F68A2C25AE5E00BBFB01 /* PostDetailView.swift */; };
 		FDDEECEA2C0DFC8E0025E562 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDEECE92C0DFC8E0025E562 /* ImagePickerView.swift */; };
 		FDDEECEC2C0E04340025E562 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDEECEB2C0E04340025E562 /* ImagePicker.swift */; };
+		FDF8F9612C38260600580602 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF8F9602C38260600580602 /* CustomModifiers.swift */; };
+		FDF8F9632C3827B900580602 /* BlueTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF8F9622C3827B900580602 /* BlueTitle.swift */; };
+		FDF8F9652C38302F00580602 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF8F9642C38302F00580602 /* Tag.swift */; };
 		FDFCD61A2C22FBF90054DD3A /* PreferenceKey1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCD6192C22FBF90054DD3A /* PreferenceKey1View.swift */; };
 		FDFCD6262C2332940054DD3A /* PreferenceKey2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCD6242C2332920054DD3A /* PreferenceKey2View.swift */; };
 		FDFCD6272C2332940054DD3A /* PreferenceKey3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFCD6252C2332930054DD3A /* PreferenceKey3View.swift */; };
@@ -211,6 +214,9 @@
 		FD65F68A2C25AE5E00BBFB01 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
 		FDDEECE92C0DFC8E0025E562 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		FDDEECEB2C0E04340025E562 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		FDF8F9602C38260600580602 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
+		FDF8F9622C3827B900580602 /* BlueTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTitle.swift; sourceTree = "<group>"; };
+		FDF8F9642C38302F00580602 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
 		FDFCD6192C22FBF90054DD3A /* PreferenceKey1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey1View.swift; sourceTree = "<group>"; };
 		FDFCD6242C2332920054DD3A /* PreferenceKey2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey2View.swift; sourceTree = "<group>"; };
 		FDFCD6252C2332930054DD3A /* PreferenceKey3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey3View.swift; sourceTree = "<group>"; };
@@ -670,16 +676,8 @@
 		FD34BF222C0B2AA10078C1CB /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
-				FD34BF242C0B2B240078C1CB /* Adapter&UIViewRepresentable */,
 			);
 			path = Playgrounds;
-			sourceTree = "<group>";
-		};
-		FD34BF242C0B2B240078C1CB /* Adapter&UIViewRepresentable */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Adapter&UIViewRepresentable";
 			sourceTree = "<group>";
 		};
 		FD34BF252C0B2B380078C1CB /* Adapter&UIViewRepresentable */ = {
@@ -915,6 +913,7 @@
 		FDDEECE42C0DF8770025E562 /* UI_UX */ = {
 			isa = PBXGroup;
 			children = (
+				FDF8F95F2C38259400580602 /* CustomModifiers */,
 			);
 			path = UI_UX;
 			sourceTree = "<group>";
@@ -953,6 +952,16 @@
 				FD62D2232C1D947700ED7E79 /* ViewCommunicationPatternsInSwiftUI */,
 			);
 			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		FDF8F95F2C38259400580602 /* CustomModifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FDF8F9602C38260600580602 /* CustomModifiers.swift */,
+				FDF8F9622C3827B900580602 /* BlueTitle.swift */,
+				FDF8F9642C38302F00580602 /* Tag.swift */,
+			);
+			path = CustomModifiers;
 			sourceTree = "<group>";
 		};
 		FDFCD6182C22FAD10054DD3A /* From_Child_To_Distant_Parent */ = {
@@ -1046,6 +1055,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDF8F9652C38302F00580602 /* Tag.swift in Sources */,
 				FD65F68B2C25AE5E00BBFB01 /* PostDetailView.swift in Sources */,
 				FD62D23F2C1ED96400ED7E79 /* AppPurchaseTheme.swift in Sources */,
 				FDFCD6272C2332940054DD3A /* PreferenceKey3View.swift in Sources */,
@@ -1107,6 +1117,7 @@
 				FD62D2332C1E990500ED7E79 /* PurchaseView.swift in Sources */,
 				FD257FA32C0F61900051669B /* SegmentedControlExample.swift in Sources */,
 				FD62D21E2C1470C200ED7E79 /* ISP_After.swift in Sources */,
+				FDF8F9612C38260600580602 /* CustomModifiers.swift in Sources */,
 				FD2F476F2C229C6700CEE499 /* BindingParentView.swift in Sources */,
 				FD62D2352C1E992F00ED7E79 /* AppStoreService.swift in Sources */,
 				FD62D23D2C1EA22B00ED7E79 /* AppColorKey.swift in Sources */,
@@ -1123,6 +1134,7 @@
 				FD65F6832C25A4FE00BBFB01 /* ServiceLayer.swift in Sources */,
 				FD257F582C0F56470051669B /* HKActivityRingViewRepresentable.swift in Sources */,
 				FD257F632C0F5A3D0051669B /* ButtonExample.swift in Sources */,
+				FDF8F9632C3827B900580602 /* BlueTitle.swift in Sources */,
 				FD62D2412C1EDA7D00ED7E79 /* AppThemeKey.swift in Sources */,
 				FD2F475C2C21F19800CEE499 /* TextInputField.swift in Sources */,
 				FD257FC12C0F647F0051669B /* TextExample.swift in Sources */,

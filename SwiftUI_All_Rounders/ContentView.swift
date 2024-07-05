@@ -61,6 +61,7 @@ struct ContentView: View {
     // ToolbarExample()
     // TextInputTypeExample()
     
+    /* View Communication Patterns In SwiftUI */
     // FromParentToDistantChildExample()
     // ShippingForm()
     // ParentsView()
@@ -80,6 +81,9 @@ struct ContentView: View {
       Post(userId: 2, id: 2, title: "Injected Mock Title 2", body: "Injected Mock Body 2")
     ]))
     */
+    
+    /* UI_UX */
+    
     
     /* Apps --> AppleKits */
     // WebViewInSwiftUI()
