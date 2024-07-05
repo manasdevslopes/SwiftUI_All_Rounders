@@ -74,7 +74,7 @@ struct ContentView: View {
     // BetweenChildren()
     
     // Switch between NetworkService() and MockDataService() for real and mock data
-    PostsList(dataService: NetworkService())
+    // PostsList(dataService: NetworkService())
     // PostsList(dataService: MockDataService(mockData: nil))
     /* PostsList(dataService: MockDataService(mockData: [
       Post(userId: 1, id: 1, title: "Injected Mock Title 1", body: "Injected Mock Body 1"),
@@ -84,6 +84,7 @@ struct ContentView: View {
     
     /* UI_UX */
     // CustomModifiers()
+    GroupBoxes()
     
     /* Apps --> AppleKits */
     // WebViewInSwiftUI()
