@@ -21,8 +21,8 @@
 
 # 3. SwiftUI Components
 
-# 4. UI/UX (Kavsoft/Rebeloper/Sean Allen)
-
+# 4. UI/UX (Stewart Lynch/Sean Allen/Rebeloper/Kavsoft)
+    # Custom Modifiers
 # 5. AppleKits
       a. Image Pickers - Camera & Gallery
       b. WebView
