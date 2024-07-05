@@ -217,6 +217,7 @@
 		FDF8F9602C38260600580602 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		FDF8F9622C3827B900580602 /* BlueTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueTitle.swift; sourceTree = "<group>"; };
 		FDF8F9642C38302F00580602 /* Tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tag.swift; sourceTree = "<group>"; };
+		FDF8F9662C3837FB00580602 /* Date-Math.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Date-Math.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		FDFCD6192C22FBF90054DD3A /* PreferenceKey1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKey1View.swift; sourceTree = "<group>"; };
 		FDFCD6242C2332920054DD3A /* PreferenceKey2View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey2View.swift; sourceTree = "<group>"; };
 		FDFCD6252C2332930054DD3A /* PreferenceKey3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreferenceKey3View.swift; sourceTree = "<group>"; };
@@ -676,6 +677,7 @@
 		FD34BF222C0B2AA10078C1CB /* Playgrounds */ = {
 			isa = PBXGroup;
 			children = (
+				FDF8F9662C3837FB00580602 /* Date-Math.playground */,
 			);
 			path = Playgrounds;
 			sourceTree = "<group>";
