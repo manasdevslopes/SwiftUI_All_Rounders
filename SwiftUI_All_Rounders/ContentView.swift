@@ -84,7 +84,8 @@ struct ContentView: View {
     
     /* UI_UX */
     // CustomModifiers()
-    GroupBoxes()
+    // GroupBoxes()
+    ShareHomeView()
     
     /* Apps --> AppleKits */
     // WebViewInSwiftUI()
