@@ -24,6 +24,8 @@
 # 4. UI/UX (Stewart Lynch/Sean Allen/Rebeloper/Kavsoft)
     # Custom Modifiers
     # GroupBoxes Customisations
+    # Share Copy W/ Animation View
+    # Custom Fonts
     
 # 5. AppleKits
       a. Image Pickers - Camera & Gallery
